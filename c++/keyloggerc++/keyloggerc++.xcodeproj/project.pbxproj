@@ -6,10 +6,17 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXFileReference section */
+		6E1BA17B1E8A753500EDB802 /* keylogger++.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "keylogger++.cpp"; sourceTree = "<group>"; };
+		6E1BA17C1E8A753500EDB802 /* keylogger++.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "keylogger++.hpp"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		6E1BA1701E8A752700EDB802 = {
 			isa = PBXGroup;
 			children = (
+				6E1BA17B1E8A753500EDB802 /* keylogger++.cpp */,
+				6E1BA17C1E8A753500EDB802 /* keylogger++.hpp */,
 			);
 			sourceTree = "<group>";
 		};
@@ -187,6 +194,7 @@
 				6E1BA17A1E8A752700EDB802 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

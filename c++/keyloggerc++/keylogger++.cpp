@@ -7,3 +7,12 @@
 //
 
 #include "keylogger++.hpp"
+#include <iostream>
+
+using std;
+
+int main() {
+    
+    cout << "dsds";
+    return 0; 
+}
