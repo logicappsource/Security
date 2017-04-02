@@ -1,10 +1,8 @@
 <?php 
-
-
-
 /*
 	This is a simple proof of concept of a brute force algorithm for string matching with
 	given set of characters.
+    
 	The way this works is that the algorithm counts from first to last possible combination of 
 	given characters. 
 
