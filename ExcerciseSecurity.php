@@ -6,7 +6,7 @@
                  .'0123456789'); // and any other characters
                  */
 
-
+    //generate string with 20 chars
 $seed = str_split('gqrxyz'
                  .'ABCDEFGZ'
                  .'01967482'); // and any other characters
@@ -18,10 +18,12 @@ $rand = '';
 
 $arrayRandom =  array();
 
-    for($i = 1;  $i <= 5; $i++) {//Generate 500k strings 
-                array_push($arrayRandom, $i);  
+for($i = 1;  $i <= 500000; $i++) {//Generate 500k strings 
+
+    array_push($arrayRandom, $i);
 
             foreach (array_rand($seed, 20) as $k) $rand .= $seed[$k];
+            
                 array_push($arrayRandom,$seed);
 }
 
