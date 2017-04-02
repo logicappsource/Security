@@ -18,7 +18,7 @@ $rand = '';
 
 $arrayRandom =  array();
 
-for($i = 1;  $i <= 500000; $i++) {//Generate 500k strings 
+for($i = 1;  $i <= 50; $i++) {//Generate 500k strings 
 
     array_push($arrayRandom, $i);
 

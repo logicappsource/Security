@@ -1,11 +1,10 @@
-<pre>
 <?php
 /*
-echo hash("md5", "Hello World!")."\n";
-echo hash("md5", "Hello world!");
+    echo hash("md5", "Hello World!")."\n";
+    echo hash("md5", "Hello world!");
 */
 /*
-echo hash("sha1","Password123!");
+    echo hash("sha1","Password123!");
 */
 /*
 $password="123456";
@@ -36,6 +35,8 @@ else
 
 echo "\n".$salt;
 */
+
+
 $password="123456";
 
 $pepper="ThisIs a sdæfkjglsfjdhleqrbh 3204i9245m";
