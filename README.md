@@ -1,6 +1,6 @@
 # Security
 FocusOnPenTest
------------------>
+----->
  Understand basic web application security concepts
  Understand how hackers exploit web applications
  Understand the principle of layered security
@@ -23,3 +23,6 @@ Lecture topics --->
 • Basic CLI (folders, privileges), basic firewall (ip-tables), basic servers
 (SSH, Apache, MySQL) 
 • Server security settings (Apache, php) 
+/*******LINUX CHEAT SHEET****** 
+https://fronter.com/kea/links/files.phtml/58c799784cd26.1344207452$415471092$/Our+Archive/Other+Material/Linux+cheat+sheet.pdf
+
